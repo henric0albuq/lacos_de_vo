@@ -6,7 +6,7 @@ const PRODUCTS = [
   {
     id: 'cestas',
     img: IMG.cestas,
-    alt: 'Cesta de café da manhã servida na cama',
+    alt: 'Cesta de café da manhã com sumo natural, caneca e pão fresco',
     title: 'Cestas de Café da Manhã',
     text: 'Comece o dia de alguém especial com uma cesta cheia de sabores, carinho e surpresas.',
     cta: 'Quero uma cesta',
@@ -16,7 +16,7 @@ const PRODUCTS = [
   {
     id: 'personalizadas',
     img: IMG.personalizadas,
-    alt: 'Caixa de presente gourmet personalizada',
+    alt: 'Caixa de presente personalizada com vinho e frios',
     title: 'Cestas Personalizadas',
     text: 'Monte um presente único de acordo com a personalidade e o momento de quem você ama.',
     cta: 'Personalizar presente',
@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     id: 'tabuas',
     img: IMG.tabuas,
-    alt: 'Tábua de frios com queijos, frutas e castanhas',
+    alt: 'Tábua de frios com fiambres, queijos, frutas e azeitonas',
     title: 'Tábuas de Frios',
     text: 'Uma composição deliciosa e sofisticada para compartilhar, comemorar e criar boas memórias.',
     cta: 'Quero uma tábua',

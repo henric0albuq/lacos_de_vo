@@ -2,8 +2,14 @@ import logo from './assets/logo.png';
 import face from './assets/face.png';
 import mascote from './assets/mascote_clean.png';
 import laco from './assets/laco_final.png';
+import cestaCafe from './assets/cesta-cafe.jpg';
+import tabuaFrios from './assets/tabua-frios.jpg';
+import caixaVinho from './assets/caixa-vinho.jpg';
+import caixaCarinho from './assets/caixa-carinho.jpg';
 
 export const ASSETS = { logo, face, mascote, laco };
+
+export const PRODUCT_PHOTOS = { cestaCafe, tabuaFrios, caixaVinho, caixaCarinho };
 
 export const WHATSAPP_NUMBER = '351923340853';
 export const WHATSAPP_DISPLAY = '923 340 853';
@@ -58,29 +64,20 @@ export const scrollToId = (id) => {
   else el.scrollIntoView({ behavior: 'smooth' });
 };
 
-const u = (id, w = 900) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
-const p = (id, w = 900) =>
-  `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${w}`;
-
 export const IMG = {
-  heroMain: u('photo-1773450970959-cef81e9b1053', 1100),
-  heroChip: p(11000896, 640),
-  cestas: u('photo-1641924676578-ed2792eb24de'),
-  personalizadas: u('photo-1773450970981-793e2d72d820'),
-  tabuas: u('photo-1773754109448-13d2af138059'),
-  personalizacao: u('photo-1782061932586-c8a425a67e3f', 1100),
+  heroMain: cestaCafe,
+  heroChip: caixaVinho,
+  cestas: cestaCafe,
+  personalizadas: caixaVinho,
+  tabuas: tabuaFrios,
+  personalizacao: caixaCarinho,
 };
 
 export const GALLERY = [
-  { src: u('photo-1773450970959-cef81e9b1053'), cat: 'Cestas', span: 'md:col-span-2 md:row-span-2' },
-  { src: p(6990558, 640), cat: 'Cestas', span: '' },
-  { src: u('photo-1641924676578-ed2792eb24de'), cat: 'Café da manhã', span: 'md:row-span-2' },
-  { src: u('photo-1675125530909-15213f01a9e1'), cat: 'Café da manhã', span: '' },
-  { src: p(30199566), cat: 'Tábuas de frios', span: 'md:col-span-2' },
-  { src: u('photo-1773754109448-13d2af138059'), cat: 'Tábuas de frios', span: '' },
-  { src: p(11000896), cat: 'Presentes personalizados', span: 'md:col-span-2' },
-  { src: u('photo-1589458456444-f7158a7e8a4f'), cat: 'Presentes personalizados', span: '' },
+  { src: cestaCafe, cat: 'Cestas', span: 'md:col-span-2 md:row-span-2' },
+  { src: tabuaFrios, cat: 'Tábuas de frios', span: '' },
+  { src: caixaVinho, cat: 'Presentes personalizados', span: '' },
+  { src: caixaCarinho, cat: 'Café da manhã', span: '' },
 ];
 
 export const GALLERY_FILTERS = [

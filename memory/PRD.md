@@ -34,6 +34,15 @@ Criar uma landing page moderna, elegante, acolhedora e visualmente chamativa par
 - overflow-x mobile corrigido (marquee) — OK
 - wa.me/351923340853 → 302 api.whatsapp.com com telefone e mensagem pré-preenchida — OK
 
+## Atualizações (2026-09-29, tarde)
+- Mascote da vovó recriada sem o artefato do terceiro braço; fundo limpo sem ruídos.
+- Card do WhatsApp no "Fale conosco" agora mostra apenas o ícone (sem número), mantendo o link wa.me/351923340853.
+- Fotos de banco de imagens removidas; todas as posições de produto (hero, 3 cards de produtos, personalização, galeria) usam as 4 fotos reais enviadas pela cliente:
+  - cesta-cafe.jpg → hero principal + card Cestas de Café da Manhã + galeria (Cestas)
+  - tabua-frios.jpg → card Tábuas de Frios + galeria (Tábuas de frios)
+  - caixa-vinho.jpg → chip do hero + card Cestas Personalizadas + galeria (Presentes personalizados)
+  - caixa-carinho.jpg → seção Personalização + galeria (Café da manhã)
+
 ## Backlog
 - P0: — (nenhum bloqueador)
 - P1: formulário de encomenda guiado no WhatsApp (montador de cesta); seção de depoimentos

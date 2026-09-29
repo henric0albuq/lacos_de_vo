@@ -127,7 +127,7 @@ export default function Hero() {
             className="absolute left-2 sm:left-8 bottom-6"
           >
             <div className="bg-white p-2.5 rounded-2xl shadow-soft ring-1 ring-petal w-32 sm:w-36">
-              <img src={IMG.heroChip} alt="Mesa de pequeno almoço com flores" className="w-full h-28 sm:h-32 object-cover rounded-xl" loading="eager" />
+              <img src={IMG.heroChip} alt="Caixa de presente com vinho e frios" className="w-full h-28 sm:h-32 object-cover rounded-xl" loading="eager" />
             </div>
           </motion.div>
 

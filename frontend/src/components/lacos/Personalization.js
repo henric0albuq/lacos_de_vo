@@ -11,7 +11,7 @@ export default function Personalization() {
             <div className="absolute -inset-4 bg-gradient-to-br from-blush to-lavender rounded-[3rem] rotate-2" aria-hidden="true" />
             <img
               src={IMG.personalizacao}
-              alt="Mãos a preparar uma cesta com flores e flores secas"
+              alt="Caixa de presente Laços de Vó com guloseimas e cartão feito à mão"
               loading="lazy"
               className="relative w-full h-[380px] md:h-[460px] object-cover rounded-[2.6rem] shadow-soft"
             />

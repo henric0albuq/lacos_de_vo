@@ -68,7 +68,7 @@ export default function Gallery() {
               initial={{ opacity: 0, scale: 0.92 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.45, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              className="md:col-span-2 relative rounded-[1.6rem] bg-gradient-to-br from-blush via-cream to-lavender ring-1 ring-white flex flex-col items-center justify-center text-center p-6 overflow-hidden"
+              className="col-span-2 md:col-span-1 relative rounded-[1.6rem] bg-gradient-to-br from-blush via-cream to-lavender ring-1 ring-white flex flex-col items-center justify-center text-center p-6 overflow-hidden"
               data-testid="gallery-brand-panel"
             >
               <img src={ASSETS.laco} alt="" aria-hidden="true" className="w-16 mb-2 drop-shadow-md" />
