@@ -9,7 +9,7 @@ const OCCASIONS = [
   { icon: Users, label: 'Dia dos Pais' },
   { icon: InfinityIcon, label: 'Aniversário de casamento' },
   { icon: CalendarHeart, label: 'Datas especiais' },
-  { icon: Coffee, label: 'Café da manhã surpresa' },
+  { icon: Coffee, label: 'Pequeno almoço surpresa' },
   { icon: Briefcase, label: 'Presentes corporativos' },
 ];
 

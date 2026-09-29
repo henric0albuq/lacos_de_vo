@@ -46,7 +46,7 @@ export default function Mascot() {
           </Reveal>
           <Reveal delay={0.15}>
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 mt-8">
-              {['Feito com carinho', 'Personalizamos para você', 'Cada detalhe importa'].map((t) => (
+              {['Feito com carinho', 'Personalizamos para ti', 'Cada detalhe importa'].map((t) => (
                 <span key={t} className="inline-flex items-center gap-2 text-[13px] text-inksoft">
                   <BowDoodle className="w-4 h-4 text-gold" />
                   {t}

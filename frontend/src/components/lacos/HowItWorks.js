@@ -2,9 +2,9 @@ import Reveal from './Reveal';
 import { SectionHead } from './deco';
 
 const STEPS = [
-  { n: '01', title: 'Você escolhe', text: 'Escolha uma cesta, tábua ou presente personalizado.' },
-  { n: '02', title: 'Nós preparamos', text: 'Montamos tudo com carinho e atenção a cada detalhe.' },
-  { n: '03', title: 'Você surpreende', text: 'Seu presente chega pronto para criar uma memória especial.' },
+  { n: '01', title: 'Escolhe', text: 'Escolhe um cabaz, uma tábua ou um presente personalizado.' },
+  { n: '02', title: 'Preparamos', text: 'Montamos tudo com carinho e atenção a cada detalhe.' },
+  { n: '03', title: 'Surpreende', text: 'O teu presente chega pronto para criar uma memória especial.' },
 ];
 
 export default function HowItWorks() {

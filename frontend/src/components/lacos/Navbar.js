@@ -87,7 +87,7 @@ export default function Navbar() {
               className="hidden sm:inline-flex items-center gap-2 rounded-full bg-rosedark text-white px-6 py-3 text-sm font-medium shadow-softer hover:bg-roseink hover:-translate-y-0.5 hover:shadow-soft transition-all duration-300"
             >
               <WaIcon className="w-4 h-4" />
-              Fazer meu pedido
+              Fazer o meu pedido
             </a>
             <button
               data-testid="nav-menu-toggle"
@@ -147,7 +147,7 @@ export default function Navbar() {
                 className="mt-6 inline-flex items-center gap-2.5 rounded-full bg-rosedark text-white px-8 py-4 text-base font-medium shadow-soft"
               >
                 <WaIcon className="w-5 h-5" />
-                Fazer meu pedido
+                Fazer o meu pedido
               </motion.a>
             </nav>
             <div className="pb-10 flex items-center justify-center gap-4">

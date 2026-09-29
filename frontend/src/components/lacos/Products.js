@@ -6,10 +6,10 @@ const PRODUCTS = [
   {
     id: 'cestas',
     img: IMG.cestas,
-    alt: 'Cesta de café da manhã com sumo natural, caneca e pão fresco',
-    title: 'Cestas de Café da Manhã',
-    text: 'Comece o dia de alguém especial com uma cesta cheia de sabores, carinho e surpresas.',
-    cta: 'Quero uma cesta',
+    alt: 'Cabaz de pequeno almoço com sumo natural, caneca e pão fresco',
+    title: 'Cabazes de Pequeno Almoço',
+    text: 'Começa o dia de alguém especial com um cabaz cheio de sabores, carinho e surpresas.',
+    cta: 'Quero um cabaz',
     msg: MSG.cesta,
     testid: 'product-cta-cestas',
   },
@@ -18,7 +18,7 @@ const PRODUCTS = [
     img: IMG.personalizadas,
     alt: 'Caixa de presente personalizada com vinho e frios',
     title: 'Cabazes Personalizados',
-    text: 'Monte um presente único de acordo com a personalidade e o momento de quem você ama.',
+    text: 'Monta um presente único, à medida da personalidade e do momento de quem vais surpreender.',
     cta: 'Personalizar presente',
     msg: MSG.personalizada,
     testid: 'product-cta-personalizadas',
@@ -28,7 +28,7 @@ const PRODUCTS = [
     img: IMG.tabuas,
     alt: 'Tábua de frios com fiambres, queijos, frutas e azeitonas',
     title: 'Tábuas de Frios',
-    text: 'Uma composição deliciosa e sofisticada para compartilhar, comemorar e criar boas memórias.',
+    text: 'Uma composição deliciosa e sofisticada para partilhar, comemorar e criar boas memórias.',
     cta: 'Quero uma tábua',
     msg: MSG.tabua,
     testid: 'product-cta-tabuas',
@@ -43,7 +43,7 @@ export default function Products() {
         <SectionHead
           eyebrow="os favoritos da casa"
           title={<>Nossos <em className="italic text-rosedark font-light">queridinhos</em></>}
-          sub="Escolha o que mais combina com o momento — nós tratamos de todo o resto, com capricho."
+          sub="Escolhe o que mais combina com o momento — nós tratamos de todo o resto, com todo o carinho."
         />
         <div id="cestas" className="grid md:grid-cols-3 gap-7 mt-14 scroll-mt-28">
           {PRODUCTS.map((p, i) => (

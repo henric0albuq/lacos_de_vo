@@ -13,14 +13,14 @@ const CARDS = [
   {
     icon: Coffee,
     title: 'Sabores que encantam',
-    text: 'Cestas e tábuas pensadas para surpreender desde o primeiro olhar.',
+    text: 'Cabazes e tábuas pensados para surpreender desde o primeiro olhar.',
     bg: 'bg-lavender/70',
     iconBg: 'bg-white text-roseink',
   },
   {
     icon: Gift,
     title: 'Presentes personalizados',
-    text: 'Você escolhe o momento. Nós ajudamos a transformar sua ideia em um presente inesquecível.',
+    text: 'Escolhe o momento. Ajudamos a transformar a tua ideia num presente inesquecível.',
     bg: 'bg-blush/80',
     iconBg: 'bg-white text-rosedark',
   },
@@ -33,7 +33,7 @@ export default function Moments() {
         <SectionHead
           eyebrow="feito para momentos especiais"
           title={<>Um carinho em forma <em className="italic text-rosedark font-light">de presente</em></>}
-          sub="Na Laços de Vó, cada detalhe é pensado para transformar um simples presente em uma experiência cheia de sabor, afeto e significado."
+          sub="Na Laços de Vó, cada detalhe é pensado para transformar um simples presente numa experiência cheia de sabor, afeto e significado."
         />
         <div className="grid md:grid-cols-3 gap-6 mt-14">
           {CARDS.map(({ icon: Icon, title, text, bg, iconBg }, i) => (

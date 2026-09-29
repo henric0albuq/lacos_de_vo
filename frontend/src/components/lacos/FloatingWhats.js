@@ -29,11 +29,11 @@ export default function FloatingWhats() {
             target="_blank"
             rel="noopener noreferrer"
             className="relative inline-flex items-center gap-2.5 bg-[#2FA860] text-white pl-4 pr-6 py-3.5 rounded-full shadow-lift hover:-translate-y-1 hover:bg-[#289053] transition-all duration-300"
-            aria-label="Faça seu pedido pelo WhatsApp"
+            aria-label="Faz o teu pedido pelo WhatsApp"
           >
             <span className="absolute inset-0 rounded-full bg-[#2FA860]/50 animate-pulse-ring" aria-hidden="true" />
             <WaIcon className="w-6 h-6 relative" />
-            <span className="relative text-sm font-medium">Faça seu pedido</span>
+            <span className="relative text-sm font-medium">Faz o teu pedido</span>
           </a>
         </motion.div>
       )}

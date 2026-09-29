@@ -47,6 +47,12 @@ Criar uma landing page moderna, elegante, acolhedora e visualmente chamativa par
 - Galeria reconstruída com as novas fotos enviadas: prato dourado de frios, tábua quadrada, foto de café (caneca I❤ + muffin) e caixa vermelha; bento sem buracos (cesta grande 2x2 como âncora).
 - "Cestas Personalizadas" → "Cabazes Personalizados" (card de produto + marquee).
 
+## Atualização (2026-09-29, noite II)
+- Texto integral convertido de PT-BR para Português de Portugal, mantendo o tom afetivo/artesanal (tratamento por "tu": "Monta o teu presente", "Faz o teu pedido", "fala connosco", "à espera de um carinho", "partilhar", "pequeno almoço", "Contacto", "Cabazes de Pequeno Almoço").
+- Mensagens pré-preenchidas do WhatsApp também em PT-PT ("um cabaz de pequeno almoço").
+- Meta title/description do index.html em PT-PT.
+- Verificado por screenshots: navbar, hero, produtos, como funciona, CTA final, contacto, botão flutuante.
+
 ## Backlog
 - P0: — (nenhum bloqueador)
 - P1: formulário de encomenda guiado no WhatsApp (montador de cesta); seção de depoimentos

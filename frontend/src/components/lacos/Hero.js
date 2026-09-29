@@ -13,7 +13,7 @@ const lineReveal = {
 
 const TRUST = [
   { icon: HeartDoodle, label: 'Feito com carinho' },
-  { icon: Sparkle, label: 'Personalizamos para você' },
+  { icon: Sparkle, label: 'Personalizamos para ti' },
   { icon: BowDoodle, label: 'Cada detalhe importa' },
 ];
 
@@ -45,8 +45,8 @@ export default function Hero() {
           </h1>
 
           <motion.p variants={lineReveal} className="text-inksoft text-base md:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mt-6">
-            Cestas de café da manhã, presentes personalizados e tábuas de frios preparados com
-            carinho para transformar momentos especiais em lembranças inesquecíveis.
+            Cabazes de pequeno almoço, presentes personalizados e tábuas de frios preparados com
+            carinho para transformar momentos especiais em memórias inesquecíveis.
           </motion.p>
 
           <motion.div variants={lineReveal} className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-9">
@@ -59,7 +59,7 @@ export default function Hero() {
             >
               <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700" aria-hidden="true" />
               <BowDoodle className="w-5 h-5" />
-              Montar meu presente
+              Monta o teu presente
             </a>
             <a
               data-testid="hero-cta-whatsapp"

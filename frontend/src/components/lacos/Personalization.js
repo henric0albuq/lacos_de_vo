@@ -29,8 +29,8 @@ export default function Personalization() {
           <SectionHead
             center={false}
             eyebrow="personalização"
-            title={<>Seu presente, <em className="italic text-rosedark font-light">do seu jeitinho</em></>}
-            sub="Conte para nós quem você quer presentear e qual é a ocasião. A Laços de Vó ajuda você a criar uma composição especial, pensada para aquela pessoa."
+            title={<>O teu presente, <em className="italic text-rosedark font-light">ao teu jeitinho</em></>}
+            sub="Diz-nos quem queres presentear e qual é a ocasião. A Laços de Vó ajuda-te a criar uma composição especial, pensada para essa pessoa."
           />
           <Reveal delay={0.15}>
             <Squiggle className="w-32 h-7 text-gold/70 mx-auto lg:mx-0 mt-6" aria-hidden="true" />

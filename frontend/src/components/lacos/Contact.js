@@ -17,7 +17,7 @@ export default function Contact() {
         <SectionHead
           eyebrow="fale conosco"
           title={<>Vamos preparar <em className="italic text-rosedark font-light">algo especial?</em></>}
-          sub="Estamos a um clique de distância — escolha o seu canal favorito e fale com a gente."
+          sub="Estamos a um clique de distância — escolhe o teu canal favorito e fala connosco."
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14">
           {CARDS.map(({ icon: Icon, title, label, iconBg, testid, href, hideValue }, i) => (

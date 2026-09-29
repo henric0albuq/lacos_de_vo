@@ -27,7 +27,7 @@ export const WHATSAPP_DISPLAY = '923 340 853';
 
 export const MSG = {
   geral: 'Olá! Vim pelo site e gostaria de fazer um pedido.',
-  cesta: 'Olá! Quero encomendar uma cesta de café da manhã.',
+  cesta: 'Olá! Quero encomendar um cabaz de pequeno almoço.',
   personalizada: 'Olá! Quero montar um presente personalizado.',
   tabua: 'Olá! Quero encomendar uma tábua de frios.',
 };
@@ -61,11 +61,11 @@ export const CONTACT = {
 export const NAV_LINKS = [
   { label: 'Início', id: 'inicio' },
   { label: 'Nossos produtos', id: 'produtos' },
-  { label: 'Cestas', id: 'cestas' },
+  { label: 'Cabazes', id: 'cestas' },
   { label: 'Tábuas de frios', id: 'tabuas' },
   { label: 'Personalizados', id: 'personalizados' },
   { label: 'Sobre nós', id: 'sobre' },
-  { label: 'Contato', id: 'contato' },
+  { label: 'Contacto', id: 'contato' },
 ];
 
 export const scrollToId = (id) => {
@@ -85,7 +85,7 @@ export const IMG = {
 };
 
 export const GALLERY = [
-  { src: cestaCafe, cat: 'Cestas', span: 'md:col-span-2 md:row-span-2' },
+  { src: cestaCafe, cat: 'Cabazes', span: 'md:col-span-2 md:row-span-2' },
   { src: tabuaFrios2, cat: 'Tábuas de frios', span: 'md:col-span-2' },
   { src: tabuaFrios3, cat: 'Tábuas de frios', span: '' },
   { src: cafeManha, cat: 'Café da manhã', span: 'md:row-span-2' },
@@ -94,7 +94,7 @@ export const GALLERY = [
 
 export const GALLERY_FILTERS = [
   'Todos',
-  'Cestas',
+  'Cabazes',
   'Café da manhã',
   'Tábuas de frios',
   'Presentes personalizados',

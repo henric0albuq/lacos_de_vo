@@ -14,10 +14,10 @@ export default function FinalCta() {
             <HeartDoodle className="absolute left-[14%] bottom-10 w-5 h-5 text-lilac animate-floaty pointer-events-none" aria-hidden="true" />
 
             <h2 className="relative font-serif text-4xl md:text-5xl lg:text-[3.4rem] leading-[1.1] text-ink max-w-3xl mx-auto text-balance">
-              Tem alguém especial esperando <em className="italic text-rosedark font-light">por um carinho?</em>
+              Há alguém especial à espera <em className="italic text-rosedark font-light">de um carinho?</em>
             </h2>
             <p className="relative text-inksoft text-base md:text-lg leading-relaxed max-w-xl mx-auto mt-6">
-              Escolha seu presente e deixe a Laços de Vó transformar seu momento em uma lembrança deliciosa.
+              Escolhe o teu presente e deixa a Laços de Vó transformar o teu momento numa lembrança deliciosa.
             </p>
             <div className="relative mt-10">
               <a
@@ -29,7 +29,7 @@ export default function FinalCta() {
               >
                 <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700" aria-hidden="true" />
                 <WaIcon className="w-6 h-6" />
-                Fazer meu pedido pelo WhatsApp
+                Fazer o meu pedido pelo WhatsApp
               </a>
             </div>
             <a

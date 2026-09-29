@@ -1,7 +1,7 @@
 import { BowDoodle } from './deco';
 
 const ITEMS = [
-  'Cestas de café da manhã',
+  'Cabazes de pequeno almoço',
   'Tábuas de frios',
   'Presentes personalizados',
   'Cabazes personalizados',
