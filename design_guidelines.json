@@ -1,0 +1,170 @@
+{
+  "app_type": "landing_page",
+  "theme_strategy": "Light Theme Priority (Nature/Organic/Soft/Pastel focus). Dark theme is NOT recommended to preserve the delicate pink/lilac aesthetics.",
+  "color_palette": {
+    "primary": "#FAD4D4",
+    "primary_foreground": "#4A3B39",
+    "secondary": "#DDA7A5",
+    "secondary_foreground": "#FAF9F6",
+    "accent_pink": "#FDF2F2",
+    "accent_lilac": "#E6E6FA",
+    "lavender": "#D8B4E2",
+    "background": "#FAF9F6",
+    "foreground": "#2D2424",
+    "surface": "#FFFFFF",
+    "gold_details": "#D4AF37",
+    "whatsapp_green": "#25D366",
+    "text_dark": "#4A3B39"
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond",
+    "body_font": "Outfit",
+    "script_font": "Dancing Script",
+    "font_pairings": [
+      {
+        "role": "H1",
+        "font": "Cormorant Garamond",
+        "weight": "400",
+        "style": "italic/regular mix",
+        "classes": "text-5xl sm:text-6xl lg:text-7xl font-serif text-[#2D2424] tracking-tight leading-none"
+      },
+      {
+        "role": "H2/H3",
+        "font": "Cormorant Garamond",
+        "weight": "400",
+        "classes": "text-3xl sm:text-4xl font-serif text-[#2D2424] tracking-tight"
+      },
+      {
+        "role": "Script Highlights",
+        "font": "Dancing Script",
+        "weight": "400",
+        "classes": "text-4xl md:text-5xl text-[#DDA7A5]"
+      },
+      {
+        "role": "Body",
+        "font": "Outfit",
+        "weight": "300",
+        "classes": "text-base md:text-lg text-[#4A3B39] leading-relaxed"
+      }
+    ]
+  },
+  "visual_enhancers": {
+    "shadows": "Very soft, elegant shadows: shadow-[0_8px_30px_rgb(221,167,165,0.15)]",
+    "radii": "Rounded corners for friendly feel: rounded-2xl or rounded-3xl for cards; rounded-full for buttons",
+    "gradients": "Discreet, soft watercolor-like gradients (e.g., bg-gradient-to-br from-[#FDF2F2] to-[#E6E6FA])",
+    "shapes": "Organic blob shapes in the background, soft watercolor textures, no sharp edges"
+  },
+  "layouts_and_grids": {
+    "container": "Max-width 7xl with generous padding px-6 md:px-12 lg:px-24",
+    "sections": {
+      "hero": "Two-column md:grid-cols-2 gap-12 items-center min-h-[90vh]",
+      "cards_3_col": "grid-cols-1 md:grid-cols-3 gap-8",
+      "grid_8_col": "grid-cols-2 md:grid-cols-4 gap-6",
+      "gallery": "Bento grid or masonry layout for product showcase"
+    }
+  },
+  "motion_and_interactions": {
+    "scroll": "Fade-in on scroll using Framer Motion (initial {{ opacity: 0, y: 20 }})",
+    "hover": "Soft card lift (-translate-y-2) and subtle shadow increase",
+    "buttons": "Micro-scale on click (scale: 0.95), subtle shine effect on gold/primary buttons",
+    "navbar": "Glassmorphism default (bg-white/40 backdrop-blur-md), transitions to bg-white/90 shadow-sm on scroll"
+  },
+  "component_instructions": {
+    "buttons": "Pill-shaped (rounded-full). Primary buttons should use pastel pink or soft gold with dark text. WhatsApp buttons use #25D366 or soft green.",
+    "cards": "Cardless or flat white cards with rounded-3xl and very soft pink/lilac shadow. No heavy borders.",
+    "navbar": "Sticky, glassmorphism. Avoid fully transparent background if text overlaps content.",
+    "icons": "Use Lucide-React for clean, delicate line icons (strokeWidth={1.5})."
+  },
+  "media_and_images": {
+    "art_direction": "Use realistic photos for actual products (baskets, charcuterie). Use SVG illustrations for the grandmother mascot, watercolor blobs, and small decorative details (ribbons, hearts, sparkles).",
+    "images": {
+      "hero_composition": {
+        "url": "https://images.unsplash.com/photo-1769738149814-4ae97be26b85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxnaWZ0JTIwYmFza2V0JTIwcmliYm9uJTIwcGlua3xlbnwwfHx8fDE3OTA3MTAzMjF8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Chocolate bars and flowers arranged in a white bag - for a delicate hero gift composition"
+      },
+      "breakfast_basket": {
+        "url": "https://images.unsplash.com/photo-1704283735270-f973e7e9c14e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwyfHxicmVha2Zhc3QlMjBiYXNrZXQlMjBjb2ZmZWUlMjBwYXN0cnl8ZW58MHx8fHwxNzkwNzEwMzIxfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Plate of croissants and a cup of coffee"
+      },
+      "charcuterie_board": {
+        "url": "https://images.unsplash.com/photo-1695606392727-d8b959879721?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxjaGFyY3V0ZXJpZSUyMGJvYXJkJTIwY2hlZXNlJTIwbWVhdHxlbnwwfHx8fDE3OTA3MTAzMjF8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Wooden cutting board topped with charcuterie"
+      },
+      "charcuterie_board_2": {
+        "url": "https://images.unsplash.com/photo-1616631124348-c63521eb484c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxjaGFyY3V0ZXJpZSUyMGJvYXJkJTIwY2hlZXNlJTIwbWVhdHxlbnwwfHx8fDE3OTA3MTAzMjF8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Sliced meat with vegetable and bread on brown wooden chopping board"
+      },
+      "delicate_flowers": {
+        "url": "https://images.unsplash.com/photo-1562048048-86d659689440?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxkZWxpY2F0ZSUyMGZsb3dlcnMlMjBwYXN0ZWwlMjBwaW5rfGVufDB8fHx8MTc5MDcxMDMyMXww&ixlib=rb-4.1.0&q=85",
+        "description": "Delicate rose stem with blossoms on a pale pink background"
+      }
+    }
+  },
+  "section_by_section_guidance": [
+    {
+      "section": "1. Navbar",
+      "guidance": "Fixed at top. glassmorphism (bg-white/70 backdrop-blur-md) default, solid white on scroll. Logo on left (can be text + SVG icon of grandma). Links: Início, Nossos produtos, Cestas, Tábuas de frios, Personalizados, Sobre nós, Contato. Highlighted CTA: 'Fazer meu pedido' (WhatsApp green or pastel pink). Use elegant hamburger menu on mobile."
+    },
+    {
+      "section": "2. Hero",
+      "guidance": "Two columns. Left: Big title 'Presentes que abraçam. Sabores que ficam na memória.', elegant serif H1, with 'abraçam' or 'memória' styled with Dancing Script. Subtitle paragraph, 2 buttons (Montar meu presente / Falar pelo WhatsApp). Right: Delicate visual composition with image of gift basket and SVG flowers/blobs in background. Very spacious."
+    },
+    {
+      "section": "3. Um carinho em forma de presente",
+      "guidance": "3 small cards in a row. Icons: Heart/Hand/Sparkles. Titles: Carinho em cada detalhe, Sabores que encantam, Presentes personalizados. Soft pastel backgrounds for each card (e.g., light pink, soft lilac, cream)."
+    },
+    {
+      "section": "4. Nossos queridinhos",
+      "guidance": "3 large product cards: Cestas de Café da Manhã, Cestas Personalizadas, Tábuas de Frios. Each has an image on top, elegant title, short desc, and a WhatsApp CTA button. Soft hover lift."
+    },
+    {
+      "section": "5. Para celebrar todos os tipos de amor",
+      "guidance": "Grid of 8 categories. Use delicate line icons from lucide-react. 4 columns on desktop, 2 on mobile. Very airy, minimal boxes. (Aniversários, Dia dos Namorados, Dia das Mães, Dia dos Pais, Aniversário de casamento, Datas especiais, Café da manhã surpresa, Presentes corporativos)."
+    },
+    {
+      "section": "6. Personalization",
+      "guidance": "Two columns. Left: Visual composition of a basket being assembled. Right: Text 'Seu presente, do seu jeitinho' + CTA 'Quero personalizar'. Reverse layout from Hero."
+    },
+    {
+      "section": "7. Special mascot section",
+      "guidance": "Centered or two-column. Create a beautiful SVG placeholder for the grandmother mascot (gray hair, glasses, pink bow) with a speech bubble: 'Cada laço guarda uma história. Cada sabor, um carinho.' Script font for this quote. Surround with SVG hearts, bows, sparkles, soft gold details. Emotional and memorable."
+    },
+    {
+      "section": "8. Como funciona",
+      "guidance": "3 steps (01 Você escolhe / 02 Nós preparamos / 03 Você surpreende). Horizontal flex on desktop with a delicate connecting dashed line. Vertical on mobile."
+    },
+    {
+      "section": "9. Premium catalog gallery",
+      "guidance": "Bento grid or masonry of high-quality images. Soft hover scale. Categories mapped over images or as clickable filters: Cestas, Café da manhã, Tábuas de frios, Presentes personalizados."
+    },
+    {
+      "section": "10. Final emotional CTA",
+      "guidance": "Centered text: 'Tem alguém especial esperando por um carinho?' Big WhatsApp button. Soft lilac/pink gradient background with watercolor aesthetic."
+    },
+    {
+      "section": "11. Contact",
+      "guidance": "Grid of contact options. Clickable buttons/cards for Instagram (@lacosdevocestas), Facebook (lacosdevocestas), WhatsApp (923 340 853), E-mail (lacosdevocestas@gmail.com)."
+    },
+    {
+      "section": "12. Footer",
+      "guidance": "Soft pink/lilac background. Logo, slogan, links, social icons."
+    },
+    {
+      "section": "13. Floating elements",
+      "guidance": "Floating WhatsApp button bottom-right 'Faça seu pedido'. Small trust indicators floating nearby if space allows ('Feito com carinho', 'Personalizamos para você')."
+    }
+  ],
+  "accessibility": "Ensure text contrast on pastel backgrounds. Use text-[#2D2424] or #4A3B39 for readability. Add data-testid to all interactive elements.",
+  "universal_guidelines_for_main_agent": [
+    "NOTE: Codebase uses .js extension, not .tsx. Output pure React JS.",
+    "Prioritize UI elegance and whitespace. Do not cram elements.",
+    "Add transition-all carefully, prefer targeted transitions (transform, opacity).",
+    "Avoid generic centered layouts except for specific CTA sections.",
+    "Use data-testid on all interactive elements (buttons, links, inputs).",
+    "Use Framer Motion for scroll animations (initial/whileInView).",
+    "Do NOT use pure #000000. Use dark brown/grey #2D2424.",
+    "Include 'lucide-react' for icons.",
+    "Do NOT use transparent headers that obscure content. Always use backdrop-blur and a semi-transparent color.",
+    "Embrace asymmetry and breathing room. Let the pastel colors speak softly."
+  ]
+}
