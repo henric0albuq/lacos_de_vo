@@ -6,7 +6,7 @@ import { SectionHead, WaIcon } from './deco';
 const CARDS = [
   { ...CONTACT.instagram, icon: Instagram, iconBg: 'bg-blush text-rosedark', testid: 'contact-instagram', href: CONTACT.instagram.href },
   { ...CONTACT.facebook, icon: Facebook, iconBg: 'bg-lavender text-roseink', testid: 'contact-facebook', href: CONTACT.facebook.href },
-  { ...CONTACT.whatsapp, icon: WaIcon, iconBg: 'bg-[#E9F8EF] text-[#2FA860]', testid: 'contact-whatsapp', href: CONTACT.whatsapp.href },
+  { ...CONTACT.whatsapp, icon: WaIcon, iconBg: 'bg-[#E9F8EF] text-[#2FA860]', testid: 'contact-whatsapp', href: CONTACT.whatsapp.href, hideValue: true },
   { ...CONTACT.email, icon: Mail, iconBg: 'bg-creamdeep text-gold', testid: 'contact-email', href: CONTACT.email.href },
 ];
 
@@ -20,7 +20,7 @@ export default function Contact() {
           sub="Estamos a um clique de distância — escolha o seu canal favorito e fale com a gente."
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14">
-          {CARDS.map(({ icon: Icon, title, label, iconBg, testid, href }, i) => (
+          {CARDS.map(({ icon: Icon, title, label, iconBg, testid, href, hideValue }, i) => (
             <Reveal key={testid} delay={i * 0.1} className="h-full">
               <a
                 data-testid={testid}
@@ -33,7 +33,9 @@ export default function Contact() {
                   <Icon className="w-6 h-6" strokeWidth={1.6} />
                 </span>
                 <span className="text-[11px] tracking-[0.22em] uppercase text-inksoft">{title}</span>
-                <span className="font-medium text-ink break-all text-[15px] leading-snug">{label}</span>
+                {!hideValue && (
+                  <span className="font-medium text-ink break-all text-[15px] leading-snug">{label}</span>
+                )}
               </a>
             </Reveal>
           ))}
