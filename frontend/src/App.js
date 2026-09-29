@@ -10,6 +10,7 @@ import Occasions from './components/lacos/Occasions';
 import Personalization from './components/lacos/Personalization';
 import Mascot from './components/lacos/Mascot';
 import HowItWorks from './components/lacos/HowItWorks';
+import Builder from './components/lacos/Builder';
 import Gallery from './components/lacos/Gallery';
 import FinalCta from './components/lacos/FinalCta';
 import Contact from './components/lacos/Contact';
@@ -66,6 +67,7 @@ function App() {
           <Personalization />
           <Mascot />
           <HowItWorks />
+          <Builder />
           <Gallery />
           <FinalCta />
           <Contact />

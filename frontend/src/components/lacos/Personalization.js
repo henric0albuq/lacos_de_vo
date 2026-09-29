@@ -1,4 +1,4 @@
-import { IMG, ASSETS, waLink, MSG } from '../../data';
+import { IMG, ASSETS, waLink, MSG, scrollToId } from '../../data';
 import Reveal from './Reveal';
 import { SectionHead, WaIcon, Sparkle, Squiggle } from './deco';
 
@@ -34,16 +34,14 @@ export default function Personalization() {
           />
           <Reveal delay={0.15}>
             <Squiggle className="w-32 h-7 text-gold/70 mx-auto lg:mx-0 mt-6" aria-hidden="true" />
-            <a
+            <button
               data-testid="personalizar-cta"
-              href={waLink(MSG.personalizada)}
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={() => scrollToId('montar')}
               className="mt-6 inline-flex items-center gap-2.5 rounded-full bg-ink text-cream px-9 py-4 text-base font-medium shadow-soft hover:bg-roseink hover:-translate-y-0.5 hover:shadow-lift transition-all duration-300"
             >
               <WaIcon className="w-5 h-5" />
               Quero personalizar
-            </a>
+            </button>
           </Reveal>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { IMG, ASSETS, waLink, MSG } from '../../data';
+import { IMG, ASSETS, waLink, MSG, scrollToId } from '../../data';
 import { WaIcon, HeartDoodle, Sparkle, BowDoodle } from './deco';
 
 const container = {
@@ -50,17 +50,15 @@ export default function Hero() {
           </motion.p>
 
           <motion.div variants={lineReveal} className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-9">
-            <a
+            <button
               data-testid="hero-cta-presente"
-              href={waLink(MSG.personalizada)}
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={() => scrollToId('montar')}
               className="group relative inline-flex items-center gap-2.5 rounded-full bg-rosedark text-white px-8 py-4 text-base font-medium shadow-soft hover:bg-roseink hover:-translate-y-0.5 hover:shadow-lift transition-all duration-300 overflow-hidden"
             >
               <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700" aria-hidden="true" />
               <BowDoodle className="w-5 h-5" />
               Monta o teu presente
-            </a>
+            </button>
             <a
               data-testid="hero-cta-whatsapp"
               href={waLink(MSG.geral)}

@@ -51,7 +51,12 @@ Criar uma landing page moderna, elegante, acolhedora e visualmente chamativa par
 - Texto integral convertido de PT-BR para Português de Portugal, mantendo o tom afetivo/artesanal (tratamento por "tu": "Monta o teu presente", "Faz o teu pedido", "fala connosco", "à espera de um carinho", "partilhar", "pequeno almoço", "Contacto", "Cabazes de Pequeno Almoço").
 - Mensagens pré-preenchidas do WhatsApp também em PT-PT ("um cabaz de pequeno almoço").
 - Meta title/description do index.html em PT-PT.
-- Verificado por screenshots: navbar, hero, produtos, como funciona, CTA final, contacto, botão flutuante.
+## Montador de Cabaz (2026-09-29)
+- Nova secção "Monta o teu cabaz em 1 minuto" (id=montar), entre "Como funciona" e a Galeria: 3 passos — 1) tipo de presente (cards com fotos reais: Cabaz de Pequeno Almoço / Cabaz Personalizado / Tábua de Frios), 2) ocasião (chips) + campo "Para quem é?" opcional, 3) acabamentos (extras multi-select) + nota para o cartão.
+- Pré-visualização da mensagem do WhatsApp em tempo real (estilo balão de conversa) + botão "Enviar pedido pelo WhatsApp" (desativado até escolher o tipo).
+- Funil: "Monta o teu presente" (hero) e "Quero personalizar" (personalização) agora rolam para o montador; os restantes CTAs continuam diretos no WhatsApp.
+- Verificado por screenshot + interação real: seleção de tipo/ocasião/extras, campo de nome, mensagem composta correta e botão ativado.
+- Próximo backlog: depoimentos, mais fotos reais na galeria.
 
 ## Auditoria final (2026-09-29)
 - Grep completo em src/ e public/: único resíduo PT-BR visível era o eyebrow "fale conosco" → corrigido para "fala connosco". Restantes ocorrências de "cesta" são apenas identificadores internos (ids, imports, testids), invisíveis ao utilizador.
