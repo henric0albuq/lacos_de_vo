@@ -53,6 +53,9 @@ Criar uma landing page moderna, elegante, acolhedora e visualmente chamativa par
 - Meta title/description do index.html em PT-PT.
 - Verificado por screenshots: navbar, hero, produtos, como funciona, CTA final, contacto, botão flutuante.
 
+## Auditoria final (2026-09-29)
+- Grep completo em src/ e public/: único resíduo PT-BR visível era o eyebrow "fale conosco" → corrigido para "fala connosco". Restantes ocorrências de "cesta" são apenas identificadores internos (ids, imports, testids), invisíveis ao utilizador.
+
 ## Backlog
 - P0: — (nenhum bloqueador)
 - P1: formulário de encomenda guiado no WhatsApp (montador de cesta); seção de depoimentos

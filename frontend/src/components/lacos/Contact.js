@@ -15,7 +15,7 @@ export default function Contact() {
     <section id="contato" data-testid="contato" className="relative py-20 md:py-28 scroll-mt-20">
       <div className="max-w-7xl mx-auto px-5 md:px-10">
         <SectionHead
-          eyebrow="fale conosco"
+          eyebrow="fala connosco"
           title={<>Vamos preparar <em className="italic text-rosedark font-light">algo especial?</em></>}
           sub="Estamos a um clique de distância — escolhe o teu canal favorito e fala connosco."
         />
