@@ -18,7 +18,7 @@ const TYPE_LABELS = {
 };
 
 const OCASIOES = ['Aniversário', 'Dia dos Namorados', 'Dia das Mães', 'Dia dos Pais', 'Casamento', 'Só porque sim'];
-const EXTRAS = ['Flores secas', 'Laço premium', 'Cartão com mensagem', 'Vinho', 'Chocolates', 'Vela aromática'];
+const EXTRAS = ['Flores secas', 'Laço premium', 'Cartão com mensagem', 'Vinho', 'Chocolates', 'Vela aromática', 'Brigadeiros caseiros'];
 
 const slug = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^\w]+/g, '-');
 
