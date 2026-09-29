@@ -4,12 +4,23 @@ import mascote from './assets/mascote_clean.png';
 import laco from './assets/laco_final.png';
 import cestaCafe from './assets/cesta-cafe.jpg';
 import tabuaFrios from './assets/tabua-frios.jpg';
+import tabuaFrios2 from './assets/tabua-frios-2.jpg';
+import tabuaFrios3 from './assets/tabua-frios-3.jpg';
 import caixaVinho from './assets/caixa-vinho.jpg';
 import caixaCarinho from './assets/caixa-carinho.jpg';
+import cafeManha from './assets/cafe-manha.jpg';
 
 export const ASSETS = { logo, face, mascote, laco };
 
-export const PRODUCT_PHOTOS = { cestaCafe, tabuaFrios, caixaVinho, caixaCarinho };
+export const PRODUCT_PHOTOS = {
+  cestaCafe,
+  tabuaFrios,
+  tabuaFrios2,
+  tabuaFrios3,
+  caixaVinho,
+  caixaCarinho,
+  cafeManha,
+};
 
 export const WHATSAPP_NUMBER = '351923340853';
 export const WHATSAPP_DISPLAY = '923 340 853';
@@ -75,9 +86,10 @@ export const IMG = {
 
 export const GALLERY = [
   { src: cestaCafe, cat: 'Cestas', span: 'md:col-span-2 md:row-span-2' },
-  { src: tabuaFrios, cat: 'Tábuas de frios', span: '' },
+  { src: tabuaFrios2, cat: 'Tábuas de frios', span: 'md:col-span-2' },
+  { src: tabuaFrios3, cat: 'Tábuas de frios', span: '' },
+  { src: cafeManha, cat: 'Café da manhã', span: 'md:row-span-2' },
   { src: caixaVinho, cat: 'Presentes personalizados', span: '' },
-  { src: caixaCarinho, cat: 'Café da manhã', span: '' },
 ];
 
 export const GALLERY_FILTERS = [

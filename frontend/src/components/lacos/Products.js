@@ -17,7 +17,7 @@ const PRODUCTS = [
     id: 'personalizadas',
     img: IMG.personalizadas,
     alt: 'Caixa de presente personalizada com vinho e frios',
-    title: 'Cestas Personalizadas',
+    title: 'Cabazes Personalizados',
     text: 'Monte um presente único de acordo com a personalidade e o momento de quem você ama.',
     cta: 'Personalizar presente',
     msg: MSG.personalizada,

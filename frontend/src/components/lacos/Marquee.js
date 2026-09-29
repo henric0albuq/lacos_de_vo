@@ -4,7 +4,7 @@ const ITEMS = [
   'Cestas de café da manhã',
   'Tábuas de frios',
   'Presentes personalizados',
-  'Cestas personalizadas',
+  'Cabazes personalizados',
   'Datas especiais',
   'Feito com carinho',
 ];

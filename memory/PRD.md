@@ -43,6 +43,10 @@ Criar uma landing page moderna, elegante, acolhedora e visualmente chamativa par
   - caixa-vinho.jpg → chip do hero + card Cestas Personalizadas + galeria (Presentes personalizados)
   - caixa-carinho.jpg → seção Personalização + galeria (Café da manhã)
 
+## Atualização (2026-09-29, noite)
+- Galeria reconstruída com as novas fotos enviadas: prato dourado de frios, tábua quadrada, foto de café (caneca I❤ + muffin) e caixa vermelha; bento sem buracos (cesta grande 2x2 como âncora).
+- "Cestas Personalizadas" → "Cabazes Personalizados" (card de produto + marquee).
+
 ## Backlog
 - P0: — (nenhum bloqueador)
 - P1: formulário de encomenda guiado no WhatsApp (montador de cesta); seção de depoimentos
