@@ -62,6 +62,10 @@ Criar uma landing page moderna, elegante, acolhedora e visualmente chamativa par
 - Removido o botão "Falar pelo WhatsApp" do hero (2026-09-29) — "Monta o teu presente" (que leva ao montador) é o único CTA do hero. Verificado: botão ausente e scroll funcional até ao montador.
 - "Como funciona" agora tem 4 passos (2026-09-29): 01 Escolhe · 02 Preparamos · 03 Surpreende · 04 Recolhe — "Vens buscar o teu cabaz em Algueirão - Sintra — aqui não fazemos entregas." Grelha ajustada para 4 colunas em desktop. Verificado por screenshot.
 
+## Health Check / Prontidão para Deploy (2026-09-30)
+- deployment_agent: primeiro run → WARN (query sem limite no endpoint /api/status do template do backend, não usado pela landing); corrigido com .limit(50) + sort. Re-run → status: pass, zero findings.
+- Verificações: compilação OK (frontend e backend), .env sem segredos hardcoded, URLs só via env, CORS OK, supervisor OK, sem operações destrutivas na DB. App pronta para deploy.
+
 ## Auditoria final (2026-09-29)
 - Grep completo em src/ e public/: único resíduo PT-BR visível era o eyebrow "fale conosco" → corrigido para "fala connosco". Restantes ocorrências de "cesta" são apenas identificadores internos (ids, imports, testids), invisíveis ao utilizador.
 
