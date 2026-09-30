@@ -1,3 +1,5 @@
+import { MapPin } from 'lucide-react';
+
 import Reveal from './Reveal';
 
 export const WaIcon = ({ className = 'w-5 h-5' }) => (
@@ -50,4 +52,13 @@ export const SectionHead = ({ eyebrow, title, sub, center = true }) => (
     <h2 className="font-serif text-4xl md:text-5xl text-ink mt-4 text-balance leading-[1.08]">{title}</h2>
     {sub && <p className={`text-inksoft mt-5 max-w-xl leading-relaxed ${center ? 'mx-auto' : ''}`}>{sub}</p>}
   </Reveal>
+);
+
+export const PickupNote = ({ className = '' }) => (
+  <span className={`inline-flex items-center gap-2 text-[13px] text-inksoft ${className}`}>
+    <MapPin className="w-4 h-4 text-gold shrink-0" />
+    <span>
+      Sem entregas · recolha no local em <span className="font-medium text-roseink">Algueirão - Sintra</span>
+    </span>
+  </span>
 );

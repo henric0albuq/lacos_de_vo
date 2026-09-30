@@ -1,6 +1,6 @@
 import { Instagram, Facebook } from 'lucide-react';
 import { ASSETS, CONTACT, NAV_LINKS, scrollToId } from '../../data';
-import { WaIcon, HeartDoodle } from './deco';
+import { WaIcon, HeartDoodle, PickupNote } from './deco';
 
 export default function Footer() {
   return (
@@ -12,6 +12,8 @@ export default function Footer() {
           <br />
           Cada sabor, um carinho.
         </p>
+
+        <PickupNote className="justify-center -mt-1" />
 
         <nav className="flex flex-wrap items-center justify-center gap-x-7 gap-y-2 mt-1" aria-label="Links do rodapé">
           {NAV_LINKS.map((l) => (

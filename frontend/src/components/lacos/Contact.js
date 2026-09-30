@@ -1,7 +1,7 @@
 import { Instagram, Facebook, Mail } from 'lucide-react';
 import { CONTACT } from '../../data';
 import Reveal from './Reveal';
-import { SectionHead, WaIcon } from './deco';
+import { SectionHead, WaIcon, PickupNote } from './deco';
 
 const CARDS = [
   { ...CONTACT.instagram, icon: Instagram, iconBg: 'bg-blush text-rosedark', testid: 'contact-instagram', href: CONTACT.instagram.href },
@@ -19,6 +19,9 @@ export default function Contact() {
           title={<>Vamos preparar <em className="italic text-rosedark font-light">algo especial?</em></>}
           sub="Estamos a um clique de distância — escolhe o teu canal favorito e fala connosco."
         />
+        <div className="mt-8 flex justify-center">
+          <PickupNote className="rounded-full bg-white/85 backdrop-blur px-5 py-3 ring-1 ring-petal shadow-softer" />
+        </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-14">
           {CARDS.map(({ icon: Icon, title, label, iconBg, testid, href, hideValue }, i) => (
             <Reveal key={testid} delay={i * 0.1} className="h-full">

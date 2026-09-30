@@ -1,6 +1,6 @@
 import { ASSETS, CONTACT, waLink, MSG } from '../../data';
 import Reveal from './Reveal';
-import { WaIcon, HeartDoodle, Sparkle } from './deco';
+import { WaIcon, HeartDoodle, Sparkle, PickupNote } from './deco';
 
 export default function FinalCta() {
   return (
@@ -41,6 +41,9 @@ export default function FinalCta() {
             >
               <span className="underline decoration-gold/60 underline-offset-4">@lacosdevocestas</span>
             </a>
+            <div className="relative mt-6 flex justify-center">
+              <PickupNote />
+            </div>
           </div>
         </Reveal>
       </div>

@@ -1,6 +1,6 @@
 import { IMG, waLink, MSG } from '../../data';
 import Reveal from './Reveal';
-import { SectionHead, WaIcon, Sparkle } from './deco';
+import { SectionHead, WaIcon, Sparkle, PickupNote } from './deco';
 
 const PRODUCTS = [
   {
@@ -45,6 +45,9 @@ export default function Products() {
           title={<>Nossos <em className="italic text-rosedark font-light">queridinhos</em></>}
           sub="Escolhe o que mais combina com o momento — nós tratamos de todo o resto, com todo o carinho."
         />
+        <div className="mt-5 flex justify-center">
+          <PickupNote />
+        </div>
         <div id="cestas" className="grid md:grid-cols-3 gap-7 mt-14 scroll-mt-28">
           {PRODUCTS.map((p, i) => (
             <Reveal key={p.id} delay={i * 0.12} className="h-full">

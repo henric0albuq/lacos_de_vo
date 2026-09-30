@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Check, Sparkles } from 'lucide-react';
 import { IMG, waLink } from '../../data';
 import Reveal from './Reveal';
-import { SectionHead, WaIcon } from './deco';
+import { SectionHead, WaIcon, PickupNote } from './deco';
 
 const TYPES = [
   { id: 'cabaz', label: 'Cabaz de Pequeno Almoço', img: IMG.cestas },
@@ -196,6 +196,7 @@ export default function Builder() {
               {!message && (
                 <p className="text-xs text-inksoft mt-3 text-center">Escolhe primeiro o tipo de presente — nós montamos a mensagem por ti.</p>
               )}
+              <PickupNote className="mt-5 justify-center w-full" />
             </div>
           </div>
         </Reveal>

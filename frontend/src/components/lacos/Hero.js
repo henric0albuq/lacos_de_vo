@@ -1,4 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { MapPin } from 'lucide-react';
 import { IMG, ASSETS, waLink, MSG, scrollToId } from '../../data';
 import { WaIcon, HeartDoodle, Sparkle, BowDoodle } from './deco';
 
@@ -15,6 +16,7 @@ const TRUST = [
   { icon: HeartDoodle, label: 'Feito com carinho' },
   { icon: Sparkle, label: 'Personalizamos para ti' },
   { icon: BowDoodle, label: 'Cada detalhe importa' },
+  { icon: MapPin, label: 'Recolha no local · Algueirão - Sintra' },
 ];
 
 export default function Hero() {
