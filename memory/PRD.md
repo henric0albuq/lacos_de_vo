@@ -59,6 +59,7 @@ Criar uma landing page moderna, elegante, acolhedora e visualmente chamativa par
 - Próximo backlog: depoimentos, mais fotos reais na galeria.
 - Extra "Brigadeiros caseiros" adicionado aos acabamentos especiais do montador (2026-09-29) — verificado no preview e na mensagem composta.
 - Aviso "Sem entregas · recolha no local em Algueirão - Sintra" (PickupNote, 2026-09-29) repetido em 6 pontos ao longo do scroll: linha de confiança do hero, sob o título dos produtos, junto ao botão de envio do montador, no CTA final, em pílula destacada na secção de contacto e no rodapé. Verificado: 6 aparições no texto da página.
+- Removido o botão "Falar pelo WhatsApp" do hero (2026-09-29) — "Monta o teu presente" (que leva ao montador) é o único CTA do hero. Verificado: botão ausente e scroll funcional até ao montador.
 
 ## Auditoria final (2026-09-29)
 - Grep completo em src/ e public/: único resíduo PT-BR visível era o eyebrow "fale conosco" → corrigido para "fala connosco". Restantes ocorrências de "cesta" são apenas identificadores internos (ids, imports, testids), invisíveis ao utilizador.

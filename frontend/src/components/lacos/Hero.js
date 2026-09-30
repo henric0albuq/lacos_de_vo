@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { MapPin } from 'lucide-react';
-import { IMG, ASSETS, waLink, MSG, scrollToId } from '../../data';
-import { WaIcon, HeartDoodle, Sparkle, BowDoodle } from './deco';
+import { IMG, ASSETS, scrollToId } from '../../data';
+import { HeartDoodle, Sparkle, BowDoodle } from './deco';
 
 const container = {
   hidden: {},
@@ -61,16 +61,6 @@ export default function Hero() {
               <BowDoodle className="w-5 h-5" />
               Monta o teu presente
             </button>
-            <a
-              data-testid="hero-cta-whatsapp"
-              href={waLink(MSG.geral)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 rounded-full bg-white/90 backdrop-blur text-ink px-8 py-4 text-base font-medium ring-1 ring-petal hover:ring-rose hover:-translate-y-0.5 hover:shadow-softer transition-all duration-300"
-            >
-              <WaIcon className="w-5 h-5 text-[#2FA860]" />
-              Falar pelo WhatsApp
-            </a>
           </motion.div>
 
           <motion.div variants={lineReveal} className="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 mt-9">
